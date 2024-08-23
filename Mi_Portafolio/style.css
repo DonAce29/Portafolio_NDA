@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #ccc 1px solid;
+}
+
+header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.profile {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    background: #fff;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+    max-width: 1000px; 
+    margin: 20px auto; 
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.profile-info {
+    flex: 1;
+}
+
+.profile-info h2 {
+    margin: 0;
+    color: #333;
+}
+
+.profile-info p {
+    margin: 5px 0;
+}
+
+.description, .skills, .projects {
+    margin: 20px 0;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+
+
+.skills ul, .projects ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li, .projects li {
+    background: #eee;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.project-link {
+    color: #007bff; 
+    text-decoration: none; 
+    font-weight: bold; 
+}
+
+.project-link:hover {
+    text-decoration: underline; 
+}
+
+
+
+
+
